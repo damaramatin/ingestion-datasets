@@ -1,0 +1,26 @@
+{
+  "name": "Palo Alto",
+  "city_key": "paloalto",
+  "last_updated": "2025-07-24",
+  "total_expected_documents": 42,
+  "documents_ingested": [
+    {
+      "filename": "sf-staff-report-001.pdf",
+      "title": "Staff Report: Housing Plan Update",
+      "summary": "Details on the city's 2025 housing strategy...",
+      "type": "staff_report",
+      "aspect": "housing",
+      "meeting_date": "2025-07-21T00:00:00Z",
+      "date_ingested": "2025-07-21T00:00:00Z"
+    },
+    {
+      "filename": "sf-minutes-2025-07-18.pdf",
+      "title": "City Council Meeting - July 18",
+      "summary": "Discussion on zoning and traffic control.",
+      "type": "meeting_minutes",
+      "aspect": "transportation",
+      "meeting_date": "2025-07-18T00:00:00Z",
+      "date_ingested": "2025-07-18T00:00:00Z"
+    }
+  ]
+}
