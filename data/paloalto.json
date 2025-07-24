@@ -1,26 +1,53 @@
 {
   "name": "Palo Alto",
   "city_key": "paloalto",
-  "last_updated": "2025-07-24",
-  "total_expected_documents": 42,
-  "documents_ingested": [
+  "state": "California",
+  "last_updated": "2025-07-24T00:00:00Z",
+  "sources": [
     {
-      "filename": "sf-staff-report-001.pdf",
-      "title": "Staff Report: Housing Plan Update",
-      "summary": "Details on the city's 2025 housing strategy...",
-      "type": "staff_report",
-      "aspect": "housing",
-      "meeting_date": "2025-07-21T00:00:00Z",
-      "date_ingested": "2025-07-21T00:00:00Z"
+      "platform": "Legistar",
+      "url": "https://publicrecords.cityofpaloalto.org/",
+      "status": "completed",
+      "documents_by_type": {
+        "staff_report": 32,
+        "meeting_minutes": 45,
+        "agenda": 15
+      },
+      "documents_ingested": 92,
+      "expected_total": 100,
+      "start_date": "2023-01-01T00:00:00Z",
+      "end_date": "2025-07-15T00:00:00Z",
+      "aspects": ["housing", "transportation", "public_safety"]
     },
     {
-      "filename": "sf-minutes-2025-07-18.pdf",
-      "title": "City Council Meeting - July 18",
-      "summary": "Discussion on zoning and traffic control.",
-      "type": "meeting_minutes",
-      "aspect": "transportation",
-      "meeting_date": "2025-07-18T00:00:00Z",
-      "date_ingested": "2025-07-18T00:00:00Z"
+      "platform": "PrimeGov",
+      "url": "https://primegov.com/palo-alto",
+      "status": "in_progress",
+      "documents_by_type": {
+        "staff_report": 0,
+        "meeting_minutes": 0,
+        "agenda": 0
+      },
+      "documents_ingested": 47,
+      "expected_total": 120,
+      "start_date": "2024-05-01T00:00:00Z",
+      "end_date": "2025-07-24T00:00:00Z",
+      "aspects": ["infrastructure", "sustainability", "budget"]
+    },
+    {
+      "platform": "Municode",
+      "url": "https://library.municode.com/ca/palo_alto",
+      "status": "not_started",
+      "documents_by_type": {
+        "staff_report": 0,
+        "meeting_minutes": 0,
+        "agenda": 0
+      },
+      "documents_ingested": 0,
+      "expected_total": 60,
+      "start_date": "2022-01-01T00:00:00Z",
+      "end_date": "2025-12-31T00:00:00Z",
+      "aspects": []
     }
   ]
 }
